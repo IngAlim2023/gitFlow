@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(209, 207, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.nombre{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.nombre:hover{
+    color: rgb(101, 132, 161);
+    text-decoration: none;
+}
+
+.descripcion{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.descripcion:hover{
+    color: rgb(101, 132, 161);
+    text-decoration: none;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.imagen img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.imagen img:hover{
+    border: 5px solid rgb(152, 189, 238);
+}
+
+.trabajo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.trabajo:hover{
+    color: rgb(101, 132, 161);
+    text-decoration: none;  
+}
